@@ -29,12 +29,12 @@ body {
 .logo {
     display: flex;
     flex-grow: 2;
-    justify-content: center;
+    margin-left: 30px;
 }
 
 .logo img {
     height: 50%;
-    width: 10%;
+    width: 20%;
     align-self: center;
 }
 
@@ -180,11 +180,12 @@ a {
     
 }
 .journey{
-    height: 20vh;
+    height: 22vh;
     width: 8vw;
     background-color: white;
     border-radius: 20% solid white;
     box-shadow: 3px 3px white;
+    padding: 15px;
 }
 .journey h1{
     color: orangered;
@@ -266,10 +267,10 @@ a {
     border-radius: 20px;
     height: 70vh;
     box-shadow: 0px 0px 4px 4px white;
-    transition: height 3s;
+    transition: height 1s;
 }
 .book-places:hover{
-    height: 55vh;
+    height: 75vh;
 }
 
 .book-places h3 {
@@ -285,9 +286,10 @@ a {
     margin-left: 90px;
     height: 7vh;
     width: 9vw;
+    border: none;
 
 }
-.book-btn:hover,.places:hover,.places-1:hover{
+.book-btn:hover,.places:hover{
     background-color: black;
     color: white;
 }
@@ -319,6 +321,7 @@ a {
     border-radius: 40px;
     height: 7vh;
     width: 10vw;
+    border: none;
 }
 
 .image-container {
@@ -369,9 +372,10 @@ a {
 .about-us {
     background-color: white;
     width: 35vw;
-    height: 35vh;
+    height: 36vh;
     margin-top: 115px;
     border-radius: 20px;
+    padding: 25px;
 }
 
 .about-us p {
@@ -511,6 +515,7 @@ a {
     width: 40vw;
     border-radius: 40px;
     margin-left: 300px;
+    border: none;
    }
    .book-places p{
     padding-top: 10px;
@@ -528,12 +533,14 @@ a {
     .places-btn{
         margin-top: 30px;
         width: 120vw;
-        margin-left: -40px;
+        margin-left: 10px;
+        border:hidden;
     }
-    .places,.places-1{
+    .places{
         height: 50px;
         width: 100px;
         border-radius: 50%;
+        border: hidden;
     }
     
     .booking-window{
@@ -548,7 +555,7 @@ a {
     
     }
     .model-border-2 img{
-            width: 105vw;
+            width: 100vw;
     }
     .stories{
         width: 80%;
@@ -630,6 +637,7 @@ a {
         color: grey;
         font-size: 20px;
         width: 100%;
+        text-align: center;
 
     }
     .nave-features-2 ul li{
@@ -641,10 +649,19 @@ a {
         margin-bottom: 50px;
     }
     .foot-logo{
-        margin-left: 60px;
+        margin-left: 20px;
+        font-size: 40px;
+    }
+    .foot-logo img{
+        height: 10vh;
+        width: 20vw;
     }
     .ab-1{
         padding-bottom: 30px;
+        font-size: 25px;
+    }
+    .ab-1 h3{
+        font-size: 33px;
     }
     .social-sites{
         width: 45vw;
