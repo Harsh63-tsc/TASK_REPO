@@ -505,7 +505,7 @@ a {
     .discover{ 
         width: 100vw;
         justify-content: center;
-        margin-left: 65px;
+        margin-left: 50px;
     }
     .discover h2{
         font-size: 3rem;
@@ -523,7 +523,7 @@ a {
     .categories-container{
         flex-direction: column;
         height: fit-content;
-        margin-left: 90px;
+        margin-left: 73px;
         margin-top: -100px;
     }
     .categories-container h1{
