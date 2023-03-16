@@ -113,35 +113,46 @@ a {
     top: 62%;
     left: 59%;
     text-align: center;
-
+    animation-name: harsh;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .dubai-ima{
     height: 7.5vh;
     width: 7vw;
 }
-
 .model-container {
     width: 40vw;
     height: 70vh;
     margin-left: 10%;
 }
-
 .model-border {
     z-index: -1;
     width: 25vw;
     height: 60vh;
     position: relative;
+    animation-name: harsh;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 
 }
 
+@keyframes harsh{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
 .model-border img {
     height: 65vh;
     border-radius: 70%;
     background-color: #ffd484;
     z-index: -1;
 
-}
 
+}
 .main-container-2 {
     height: 83vh;
     width: 72vw;
@@ -154,6 +165,9 @@ a {
     z-index: -1;
     width: 25vw;
     height: 60vh;
+    animation-name: harsh;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 .model-container-2 img {
@@ -240,7 +254,7 @@ a {
 .locations img {
     height: auto;
     width: 11vw;
-    transition: width 3s;
+    transition: width 2s;
 }
 .locations img:hover{
     width: 13vw;
@@ -372,7 +386,7 @@ a {
 .about-us {
     background-color: white;
     width: 35vw;
-    height: 36vh;
+    height: 46vh;
     margin-top: 115px;
     border-radius: 20px;
     padding: 25px;
@@ -488,6 +502,16 @@ a {
     }
     .discover h2{
         font-size: 3rem;
+    }
+    .dubai-container{
+        width: 29vw;
+        left: 30px;
+        font-size: 13px;
+        top: 400px;
+    }
+    .dubai-ima{
+        width: 29vw;
+        padding-bottom: 10px;
     }
     .categories-container{
         flex-direction: column;
@@ -676,4 +700,20 @@ a {
     }
 
 }
+
+
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+
 
