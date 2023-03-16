@@ -1,0 +1,662 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: none;
+    font-family: Poppins;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #fffcec;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 15vh;
+}
+
+.checking {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.logo {
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+}
+
+.logo img {
+    height: 50%;
+    width: 10%;
+    align-self: center;
+}
+
+.logo h1 {
+    align-self: center;
+}
+
+.nave-features {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+}
+
+.nave-features ul {
+    display: flex;
+    width: 100%;
+}
+
+.nave-features ul li {
+    padding: 3%;
+    display: flex;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nave-features ul li:hover {
+    border-bottom: 2px solid orangered;
+}
+
+.upper-btn {
+    align-self: center;
+    flex-basis: 40vh;
+    justify-content: center;
+}
+
+.up-btn {
+    padding: 2vh 4vh 2vh 4vh;
+    border: 2px solid orangered;
+    color: orangered;
+    border-radius: 30px;
+}
+
+.hover-feature,
+.nave-features-2 {
+    display: none;
+}
+
+.main-container {
+    height: 83vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.discover {
+    width: 45vw;
+    height: 60vh;
+    padding-left: 11%;
+    margin-left: 5%;
+}
+
+.discover h2 {
+    font-size: 3.75rem;
+}
+.dubai-container{
+    height: 13vh;
+    width: 7vw;
+    position: absolute;
+    background-color: white;
+    font-size: 0.65rem;
+    top: 62%;
+    left: 59%;
+    text-align: center;
+
+}
+.dubai-ima{
+    height: 7.5vh;
+    width: 7vw;
+}
+
+.model-container {
+    width: 40vw;
+    height: 70vh;
+    margin-left: 10%;
+}
+
+.model-border {
+    z-index: -1;
+    width: 25vw;
+    height: 60vh;
+    position: relative;
+
+}
+
+.model-border img {
+    height: 65vh;
+    border-radius: 70%;
+    background-color: #ffd484;
+    z-index: -1;
+
+}
+
+.main-container-2 {
+    height: 83vh;
+    width: 72vw;
+    display: flex;
+    margin: -5% 0 5% 12%;
+    
+}
+
+.model-border-2 {
+    z-index: -1;
+    width: 25vw;
+    height: 60vh;
+}
+
+.model-container-2 img {
+    height: 65vh;
+    border-radius: 50%;
+    background-color: #ffd484;
+}
+
+.stories {
+    width: 35vw;
+    height: 60vh;
+    margin-left: 23%;
+}
+
+.stories h2 {
+    font-size: 3rem;
+}
+.success-container{
+    height: 20vh;
+    width: 26vw;
+    display: flex;
+    gap: 9%;
+    padding-top: 10%;
+    
+}
+.journey{
+    height: 20vh;
+    width: 8vw;
+    background-color: white;
+    border-radius: 20% solid white;
+    box-shadow: 3px 3px white;
+}
+.journey h1{
+    color: orangered;
+}
+
+.categories-container {
+    width: 85vw;
+    display: flex;
+    height: 30vh;
+    margin-left: 12%;
+    margin-top: 2%;
+}
+
+.category {
+    width: 80vw;
+    margin-left: 4%;
+}
+
+.category h1 {
+    font-size: 4rem;
+}
+
+.category p {
+    color: grey;
+    line-height: 170%;
+
+}
+
+.category-toggle {
+    width: 25vw;
+    margin: 20px 0 0 450px;
+}
+
+.category-toggle img {
+    height: 6vh;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    height: 65vh;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+.locations img {
+    height: auto;
+    width: 11vw;
+    transition: width 3s;
+}
+.locations img:hover{
+    width: 13vw;
+}
+.locations {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.booking-window {
+    display: flex;
+    width: 85vw;
+    gap: 4%;
+    margin-left: 14%;
+    height: 80vh;
+    margin-bottom: 10%;
+    overflow-x: hidden;
+    margin-top: 2%;
+}
+
+.book-places {
+    border: 5px solid white;
+    border-radius: 20px;
+    height: 70vh;
+    box-shadow: 0px 0px 4px 4px white;
+    transition: height 3s;
+}
+.book-places:hover{
+    height: 55vh;
+}
+
+.book-places h3 {
+    font-size: 1.5625rem;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.book-btn {
+    border-radius: 40px;
+    margin-left: 90px;
+    height: 7vh;
+    width: 9vw;
+
+}
+.book-btn:hover,.places:hover,.places-1:hover{
+    background-color: black;
+    color: white;
+}
+
+.top-desti {
+    margin-top: 80px;
+    text-align: center;
+    height: 15vh;
+}
+
+.top-desti h1 {
+    font-size: 3.75rem;
+}
+
+.book-places img {
+    width: 25vw;
+    height: 40vh;
+
+}
+
+.places-btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.places {
+    border-radius: 40px;
+    height: 7vh;
+    width: 10vw;
+}
+
+.image-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.image-center-cont {
+    width: 95%;
+    height: auto;
+    display: flex;
+}
+
+.image-left-small {
+    margin: 35px 0 10px 80px;
+}
+#bottom-image{
+    height: 45vh;
+}
+
+.image-left-big {
+    margin: 30px 15px 10px 20px;
+}
+
+.image-right-big {
+    margin: 30px 0 0 0;
+}
+
+.image-right-small {
+    margin: 10px 0 0 0;
+}
+
+.review-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 70vh;
+    margin-top: 100px;
+}
+
+.review {
+    width: 30vw;
+}
+
+.about-us {
+    background-color: white;
+    width: 35vw;
+    height: 35vh;
+    margin-top: 115px;
+    border-radius: 20px;
+}
+
+.about-us p {
+    font-size: 1rem;
+    color: grey;
+    padding-bottom: 25px;
+
+}
+
+.person-container {
+    width: 25vw;
+    height: 65vh;
+    margin: 20px 0px 0px 20px;
+
+}
+
+.person-container img {
+    height: 67vh;
+    margin-left: 20px;
+    border-radius: 40%;
+    background-color: #F66F4D;
+    border-bottom-left-radius: 42%;
+    border-bottom-right-radius: 42%;
+}
+
+.sign-up {
+    height: 40vh;
+    border: 1px solid #ffd484;
+    border-radius: 15px;
+    width: 80vw;
+    margin: 10%;
+    text-align: center;
+    background-color: #ffd484;
+}
+.sign-up h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.sign-up p {
+    margin: 15px 0px;
+    color: grey;
+}
+
+.sign-up input {
+    padding: 25px;
+    width: 25vw;
+    border-radius: 20px;
+    border: 1px white;
+    height: 7vh;
+    background-image:url(./resources/assets/Vector\ \(2\).png);
+    background-position: 95%;
+    background-repeat: no-repeat;
+}
+
+.foot-logo {
+    display: flex;
+}
+.social-sites{
+    width: 15vw;
+    padding: 20px 30px 0 0;
+
+}
+.social-sites img{
+    height: 4vh;
+    width: 3vw;
+}
+
+.bottom {
+    margin-top: 30px;
+    height: 25vh;
+    margin-left: 120px;
+}
+
+.ab {
+    display: flex;
+    flex-direction: row;
+    padding-right: 30px;
+}
+
+.ab-1 {
+    padding-right: 10%;
+}
+
+.ab-1 p {
+    padding-top: 15px;
+}
+
+@media screen and (max-width:700px) and (min-width:300px) {
+    .image-center-cont{
+        flex-direction: column;
+    }
+    .category-toggle {
+        width: 20%;
+        margin: 20px 0 0 100px;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .main-container{
+        flex-direction: column-reverse;
+        height: fit-content;
+    
+    }
+    .discover{ 
+        width: 100vw;
+        justify-content: center;
+        margin-left: 65px;
+    }
+    .discover h2{
+        font-size: 3rem;
+    }
+    .categories-container{
+        flex-direction: column;
+        height: fit-content;
+        margin-left: 90px;
+        margin-top: -100px;
+    }
+    .categories-container h1{
+        font-size: 3rem;
+    }
+    .category-toggle{
+        display: none;
+    }
+    .cards{
+        height: fit-content;
+        margin-left: 100px;
+        font-size: 40px;
+        margin-top: 50px;
+    }
+   .locations img{
+    height: 45vh;
+    width: 100%;
+   }
+   .book-btn{
+    width: 40vw;
+    border-radius: 40px;
+    margin-left: 300px;
+   }
+   .book-places p{
+    padding-top: 10px;
+   }
+    .ab{
+        flex-direction: column;
+    }
+    .image-center-cont{
+        width: 100%;
+        margin-left: -50px;
+    }
+    .image-center-cont img{
+        width: 100%;
+    }
+    .places-btn{
+        margin-top: 30px;
+        width: 120vw;
+        margin-left: -40px;
+    }
+    .places,.places-1{
+        height: 50px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    
+    .booking-window{
+        flex-direction: column;
+        overflow-y: hidden;
+    }
+    .main-container-2{
+        flex-direction: column;
+        height: fit-content;
+        width: 105vw;
+        margin-top: 120px;
+    
+    }
+    .model-border-2 img{
+            width: 105vw;
+    }
+    .stories{
+        width: 80%;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    .stories h2{
+        font-size: 40px;
+    }
+    .success-container{
+        width: 100vw;
+        margin-left: -10px;
+    }
+    .journey{
+        width: 100px;
+        height: fit-content;
+    }
+    .booking-window{
+        height: fit-content;
+        width: fit-content;
+        margin-left: 5px;
+    }
+    .book-places{
+        width: 100vw;
+        width: fit-content;
+        margin-top: 50px;
+        padding-top: 10px;
+
+    }
+    .book-places img{
+        width: fit-content;
+        }
+    .top-desti h1{
+        font-size: 50px;
+    }
+    .top-desti{
+        margin-left: 70px;
+    }
+    .image-center-cont img{
+        width: 100vw;
+    }
+    .image-left-big{
+        margin-left: 75px;
+    }
+    .image-right{
+        margin-left: 75px;
+    }
+    .review-container{
+        flex-direction: column;
+        margin-top: 300px;
+    }
+    .about-us{
+        width: 80vw;
+        margin-left: 100px;
+
+    }
+    .sign-up{
+        margin-top: 300px;
+        width: 100vw;
+    }
+    .sign-up input{
+        width: 80vw;
+    }
+    .nave-features,.upper-btn{
+        display: none;
+    }
+    .navbar{
+        width: 120%;
+    }
+    .hover-feature{
+        display: block;
+        margin-top: 40px;
+        z-index: 1;
+    }
+    .hover-feature:hover .nave-features-2{
+        display: flex;
+        padding: 30px;
+        background-color: #F66F4D;
+        color: grey;
+        font-size: 20px;
+        width: 100%;
+
+    }
+    .nave-features-2 ul li{
+            display: flex;
+            margin: 20px;
+    }
+    .ab{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .foot-logo{
+        margin-left: 60px;
+    }
+    .ab-1{
+        padding-bottom: 30px;
+    }
+    .social-sites{
+        width: 45vw;
+        margin: 20px auto auto 35px;
+        display: flex;
+        height: auto;
+        justify-content: space-between;    
+    }
+    .social-sites img{
+        height: 4vh;
+        width: 10vw;
+    }
+
+}
+
